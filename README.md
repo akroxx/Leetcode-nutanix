@@ -8,3 +8,8 @@ Solutions to leetcode interview questions for nutanix
 * Serialize and Deserialize a Binary Tree <!-- >
 * Serialize and Deserialize a Binary Search Tree <!-- >
 * Sudoku Solver <!-- >
+* Product of Array Except Self <!-- >
+* Best Time to Buy and Sell Stock II <!-- >
+* String Compression <!-- >
+* LRU Cache <!-- Incomplete >
+* Jump Game <!-- >
