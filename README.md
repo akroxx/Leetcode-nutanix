@@ -13,3 +13,7 @@ Solutions to leetcode interview questions for nutanix
 * String Compression <!-- >
 * LRU Cache <!-- Incomplete >
 * Jump Game <!-- >
+* Find First and Last Position of Element in Sorted Array <!--Apply simple binary search twice and return left & right in 2 diff functions >
+* Course Schedule II <!-- >
+* Merge Intervals <!-- >
+* Partitioning into Minimum Number of Deci-Binary Numbers <!-- >
