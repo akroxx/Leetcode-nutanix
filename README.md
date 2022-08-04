@@ -17,3 +17,4 @@ Solutions to leetcode interview questions for nutanix
 * Course Schedule II <!-- >
 * Merge Intervals <!-- >
 * Partitioning into Minimum Number of Deci-Binary Numbers <!-- >
+* Check String validity after substitution <!-- >

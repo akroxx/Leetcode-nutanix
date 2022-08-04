@@ -1,3 +1,7 @@
+#include <iostream>
+
+using namespace std;
+
 class Solution {
 public:
     int compareVersion(string version1, string version2) {
@@ -29,6 +33,39 @@ public:
         return 0;   //if no comparisons return 1 or -1, that means version2 == version2;
     }
 };
+
+
+int main(){
+
+    Solution obj;
+
+    cout<<obj.compareVersion("1.01", "1.001")<<endl;
+    cout<<obj.compareVersion("0.1", "1.1")<<endl;
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //External function using pair and fetching next chunk until '.' encountered
 /**

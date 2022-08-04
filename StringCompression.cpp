@@ -1,3 +1,8 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
 class Solution {
 public:
     int compress(vector<char>& chars) {        
@@ -29,3 +34,26 @@ public:
         return writer;
     }
 };
+
+int main(){
+    Solution obj;
+
+    vector<char> ip1;
+    char c;
+    for(int i = 0; i < 7; i++){
+        cout<<"Enter ip "<<i+1<< " : ";
+        cin>>c;
+        ip1.push_back(c);
+    }
+
+    int res = obj.compress(ip1);
+
+    cout<<"Function called";
+
+    for(int i = 0; i < res; i++){
+        cout<<"\t"<<ip1[i];
+    }
+
+    return 0;
+
+}
